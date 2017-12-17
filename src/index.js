@@ -82,5 +82,5 @@ var LocalDB = function(tableName){
 
 };
 // Export to global scope if running on the browser
-module.exports = LocalDB;
+exports.default = LocalDB;
 if(window) window.DB = LocalDB;
