@@ -1,27 +1,27 @@
 {
 	"name": "local-db",
 	"version": "1.0.0",
-	"description": "Local database using  browser localStorage api",
-	"homepage": "https://github.com/kucukkanat/LocalDB#readme",
+	"description": "Local database using browser localStorage api",
+	"homepage": "https://github.com/mickyginger/local-db",
 	"bugs": {
-		"url": "https://github.com/kucukkanat/LocalDB/issues"
+		"url": "https://github.com/mickyginger/local-db/issues"
 	},
 	"license": "ISC",
 	"author": "htolgasahin@gmail.com",
 	"main": "localDB.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/kucukkanat/LocalDB.git"
+		"url": "git+https://github.com/mickyginger/local-db.git"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack"
 	},
 	"devDependencies": {
-		"sift": "^5.0.0",
 		"webpack": "^3.8.1"
 	},
 	"dependencies": {
+		"sift": "^5.0.0",
 		"bson": "^1.0.4"
 	}
 }
